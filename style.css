@@ -1,0 +1,84 @@
+* {
+	margin: 0 0;
+	padding: 0 0;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	color: #48cae4;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #caf0f8;
+}
+
+#header {
+	margin: 1.5rem 0;
+	font-weight: 500;
+}
+#info {
+	display: flex;
+	justify-content: space-evenly;
+	width: 500px;
+	height: auto;
+	margin-bottom: 1.5rem;
+	font-size: 1.5rem;
+}
+.bored {
+	background-color: #48cae4;
+	width: 500px;
+	height: 500px;
+	display: flex;
+	justify-content: space-between;
+	align-content: space-between;
+	flex-wrap: wrap;
+}
+.cell {
+	background-color: #90e0ef;
+	width: 30%;
+	height: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 6.5rem;
+	color: #caf0f8;
+	transition: all 0.5s linear;
+}
+#ScoreDiv {
+	margin-top: 1.5rem;
+	width: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+.playerDiv {
+	width: 248px;
+	margin-top: 1.5rem;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.playerInfo {
+	font-size: 1.5em;
+	margin: .75rem 0;
+}
+#turn {
+	transition: all 0.3s linear;
+}
+#reset {
+	transition: all 0.25s linear;
+}
+
+#reset:hover {
+	color: white;
+	cursor: pointer;
+	transform: scale(1.2);
+}
+.x {
+	color: rgb(28, 28, 221);
+}
+.o {
+	color: rgb(226, 58, 58);
+}
